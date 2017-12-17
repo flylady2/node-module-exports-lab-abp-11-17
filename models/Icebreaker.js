@@ -6,5 +6,5 @@ class Icebreaker{
     Question.Find()
   }
 }
-const Question = require('./models/Question.js')
+const Question = require(`./models/Question.js`)
 module.exports = Icebreaker
